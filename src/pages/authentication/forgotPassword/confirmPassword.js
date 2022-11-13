@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from '../../../assets/Logo.png'
-import styles from './forgot.css'
+import styles from './forgot.module.css'
 
-const resetPassword = () => {
+const ConfirmPassword = () => {
   return (
     <div>
-        <div className="container border d-grid justify-content-center py-5">
+        <div className="container d-grid justify-content-center py-5">
                 <div className="logo d-flex justify-content-center w-100 my-5">
                     <img src={logo} className={styles.logo} alt="" />
                     <p className={'text-danger fw-bold mt-2 ms-2 '+ styles.fontlogo}>Blanja</p>
@@ -13,8 +13,10 @@ const resetPassword = () => {
                 <div className="text-login w-100 d-flex justify-content-center">
                     <h5 className='fw-bold'>Reset Password</h5>
                 </div>
+                <h6 className='text-danger text-center my-4'>You Need to Change Your Password to Acivate Your Account</h6>
                 <form action="" className='w-100 d-grid'>
-                    <input type="text" className={"form-control mt-4 "+ styles.forminp} placeholder='E-mail' />
+                    <input type="password" className={"form-control mt-4 "+ styles.forminp} placeholder='New Password' />
+                    <input type="password" className={"form-control my-4 "+ styles.forminp} placeholder='Confirm New Password' />
                     <button className='btn btn-danger rounded-pill w-100 my-4'>Confirm</button>
                 </form>
                 <div className="wrapperRegister w-100 d-flex justify-content-center">
@@ -26,4 +28,4 @@ const resetPassword = () => {
   )
 }
 
-export default resetPassword
+export default ConfirmPassword

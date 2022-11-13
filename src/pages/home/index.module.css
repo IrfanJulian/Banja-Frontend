@@ -1,0 +1,36 @@
+.card{
+    width: 208px;
+    height: 278px;
+    border-radius: 6px;
+}
+.wrapperimg{
+    width: 238px;
+    height: 136px;
+}
+.productpict{
+    width: 136px;
+    height: 136px;
+}
+.cardCategory{
+    width: 206px;
+    height: 220px;
+}
+.wrapperCardCarousel{
+    width: 456px;
+    height: 180px;
+}
+.imageCarousel{
+    width: 456px;
+    height: 180px;
+}
+
+@media screen and (min-width: 546px){
+    .carouselInner{
+        display: flex;
+    }
+    .carouselItem{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3)
+    }
+}

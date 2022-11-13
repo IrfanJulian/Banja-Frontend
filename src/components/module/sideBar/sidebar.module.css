@@ -1,0 +1,29 @@
+.imgwrapper{
+    width: 60px;
+    height: 60px;
+}
+.imgProfile{
+    width: 60px;
+    height: 60px;
+}
+.wrappericon{
+    width: 32px;
+    height: 32px;
+}
+.wrappericon2{
+    width: 32px;
+    height: 32px;
+    background: #F36F45;
+}
+.wrappericon3{
+    width: 32px;
+    height: 32px;
+    background: #F3456F;
+}
+.toggler{
+    font-size: 40px;
+}
+.btn{
+    width: 75px;
+    height: 75px;
+}
