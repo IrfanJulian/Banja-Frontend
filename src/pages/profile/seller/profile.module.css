@@ -1,0 +1,33 @@
+.inp{
+    Width: 348px;
+    Height: 48px;
+    border: 1px solid #9B9B9B;
+}
+.inpDesc{
+    height: 118px;
+    width: 348px;
+}
+.border{
+    width: 1px;
+    height: 166px;
+}
+.btnchange{
+    Width: 140px;
+    Height: 36px;
+    margin-top: -120px;
+    margin-left: -7px;
+}
+.border{
+    width: 1px;
+    height: 166px;
+}
+.wrapperimg{
+    width: 110px;
+    height: 110px;
+    border: 2px solid #9B9B9B;
+    border-radius: 50%;
+}
+.profpict{
+    width: 110px;
+    height: 110px;
+}

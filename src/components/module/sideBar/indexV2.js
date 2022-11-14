@@ -1,9 +1,9 @@
-import React from 'react'
 import styles from './sidebar.module.css'
 import img from '../../../assets/hitler.jfif'
 import { Link } from 'react-router-dom'
+import React from 'react'
 
-const SideBar = () => {
+const SidebarSeller = () => {
   return (
     <div>
         <a className={"btn mt-2 ms-2 "+ styles.btn} data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -63,10 +63,10 @@ const SideBar = () => {
                     </div>
                     </Link>
                 </div>
+            </div>
         </div>
-    </div>
     </div>
   )
 }
 
-export default SideBar
+export default SidebarSeller

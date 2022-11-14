@@ -9,6 +9,8 @@ import ConfirmPassword from '../../pages/authentication/forgotPassword/confirmPa
 import Relogin from '../../pages/authentication/forgotPassword/relogin'
 import ProfileCustomer from '../../pages/profile/customer/profile'
 import Adress from '../../pages/profile/customer/adress'
+import Order from '../../pages/profile/customer/order'
+import ProfileSeller from '../../pages/profile/seller/profile'
 
 const Router = () =>{
     return (
@@ -23,7 +25,9 @@ const Router = () =>{
                 <Route path='/confirmPassword' element={<ConfirmPassword/>} />
                 <Route path='/relogin' element={<Relogin/>} />
                 <Route path='/profileCustomer' element={<ProfileCustomer/>} />
-                <Route path='/profileAdress' element={<Adress/>} />
+                <Route path='/profileAddress' element={<Adress/>} />
+                <Route path='/profileOrder' element={<Order/>} />
+                <Route path='/profileSeller' element={<ProfileSeller/>} />
             </Routes>
         </BrowserRouter>
     )

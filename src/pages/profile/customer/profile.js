@@ -74,15 +74,15 @@ const ProfileCustomer = () => {
                         </div>
                         <div className="col-4 d-flex pe-5">
                             <div className={"border mx-5 "+ styles.border}></div>
-                            <div className="wrappercontent ms-5 w-100 d-grid justify-content-center">
-                                <div className={"wrapperimg d-grid justify-content-center overflow-hidden ms-2 "+ styles.wrapperimg}>
-                                    <img src={profpict} className={styles.profpict} alt="" />
+                                <div className="wrappercontent ms-5 w-100 d-grid justify-content-center">
+                                    <div className={"wrapperimg d-grid justify-content-center overflow-hidden ms-2 "+ styles.wrapperimg}>
+                                        <img src={profpict} className={styles.profpict} alt="" />
+                                    </div>
+                                        <input hidden type="file" id='file' />
+                                        <button className={'btn btn-outline-secondary rounded-pill '+styles.btnchange}>
+                                            <label htmlFor="file">Select Image</label>
+                                        </button>
                                 </div>
-                                    <input hidden type="file" id='file' />
-                                    <buttxon className={'btn btn-outline-secondary rounded-pill '+styles.btnchange}>
-                                        <label htmlFor="file">Select Image</label>
-                                    </buttxon>
-                            </div>
                         </div>
                     </div>
                 </div>
