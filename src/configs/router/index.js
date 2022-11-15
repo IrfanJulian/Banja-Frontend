@@ -11,6 +11,7 @@ import ProfileCustomer from '../../pages/profile/customer/profile'
 import Adress from '../../pages/profile/customer/adress'
 import Order from '../../pages/profile/customer/order'
 import ProfileSeller from '../../pages/profile/seller/profile'
+import MyBag from '../../pages/myBag'
 
 const Router = () =>{
     return (
@@ -28,6 +29,7 @@ const Router = () =>{
                 <Route path='/profileAddress' element={<Adress/>} />
                 <Route path='/profileOrder' element={<Order/>} />
                 <Route path='/profileSeller' element={<ProfileSeller/>} />
+                <Route path='/myBag' element={<MyBag/>} />
             </Routes>
         </BrowserRouter>
     )

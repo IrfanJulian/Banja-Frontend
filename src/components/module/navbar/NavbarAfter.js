@@ -28,12 +28,12 @@ const NavbarAfter = () => {
                 <a href="#cart" className={'text-decoration-none mx-4 '+ styles.icon}><i className="text-secondary bi bi-cart2"></i></a>
                 <a href="#notification" className={'text-decoration-none mx-4 '+ styles.icon}><i className="text-secondary bi bi-bell"></i></a>
                 <a href="#message" className={'text-decoration-none mx-4 '+ styles.icon}><i className="text-secondary bi bi-envelope"></i></a>
-                <Link to={'/profileCustomer'}><div className={"wrapperimg overflow-hidden mx-4 "+ styles.wrapperimg}><img src={profilePict} className={styles.imgprofile} alt="" /></div></Link>
+                <Link to={'/profileCustomer'} className={"overflow-hidden ms-4 "+styles.wrapperimg}><img src={profilePict} className={styles.imgprofile} alt="" /></Link>
               </div>
             </div>
           </div>
         </div>
-    </div>
+      </div>
     </div>
   )
 }

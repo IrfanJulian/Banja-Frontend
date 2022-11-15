@@ -1,13 +1,3 @@
-/* .containerFluid{
-    background: #F5F5F5;
-} */
-
-/* #sidebar{
-    background: #000;
-    min-width: 350px;
-    max-width: 350px;
-} */
-
 .container{
     border: 2px solid #9B9B9B;
     border-radius: 8px;
@@ -17,20 +7,6 @@
     Height: 48px;
     border: 1px solid #9B9B9B;
 }
-.border{
-    width: 1px;
-    height: 166px;
-}
-.wrapperimg{
-    width: 110px;
-    height: 110px;
-    border: 2px solid #9B9B9B;
-    border-radius: 50%;
-}
-.profpict{
-    width: 110px;
-    height: 110px;
-}
 .btnsave{
     Width: 150px;
     Height: 50px;
@@ -39,5 +15,13 @@
     Width: 140px;
     Height: 36px;
     margin-top: -120px;
-    margin-left: -13px;
+    margin-left: 0px;
+}
+.imguser{
+    width: 150px;
+    height: 150px;
+}
+.imgwrapper{
+    width: 150px;
+    height: 150px;
 }
